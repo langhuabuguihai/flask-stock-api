@@ -1,13 +1,14 @@
 from flask import Flask, request, jsonify
 import yfinance as yf
+import os
 
 app = Flask(__name__)
 
 @app.route('/historical', methods=['GET'])
 def get_historical_data():
     symbol = request.args.get('symbol', '7113.KL')
-    period = request.args.get('period', '1mo')  # Default is 1 month (other examples: 6mo, 1y, 5y, max)
-    interval = request.args.get('interval', '1d')  # Daily data
+    period = request.args.get('period', '1mo')
+    interval = request.args.get('interval', '1d')
 
     try:
         stock = yf.Ticker(symbol)
@@ -34,4 +35,5 @@ def get_historical_data():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(debug=True, host='0.0.0.0', port=port)
