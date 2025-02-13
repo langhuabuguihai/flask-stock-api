@@ -1,0 +1,57 @@
+Part 1  -> GDP
+
+G -> CARG 
+1-5 20 Marks
+6-9 30 Marks
+10-14 40 Marks
+Above 15 50 Marks
+
+D -> Dividend Yield 
+1-2 5 Marks
+3-4 10 Marks
+5-6 15 Marks 
+Above 7 20 Marks
+
+p -> Price Earning Ratio  
+Above 25 5 Marks
+16-24 10 Marks
+10-15 20 Marks
+Below 9 30 Marks
+
+Part 2 -> PRC
+
+P -> Profit Margin
+1-5 5 Marks 
+6-10 10 Marks
+11-15 15 Marks
+Above 16 20 Marks
+
+R -> ROE 
+1-5 10 Marks
+6-10 20 Marks
+11-15 30 Marks
+Above 16 40 Marks
+
+C -> Cash Flow 
+L + Negative CF 1 Marks
+L + Positive CF 20 Marks
+Wp + Negative CF 30 Marks 
+Wp + Positive CF 40 Marks 
+
+
+Requirement:
+
+1. Five year's Net Income Continuous Operation, Take Latest year and first year 
+2. CAGR 
+3. Total up Dividend given at latest year and divide by the latest price of  the stock
+4. Latest Basic EPS, latest price / Basic EPS
+5. Operating Revenue / Net Income(Profit) --> (Profit Margin)
+6. Net Income / Stockholders Equity (ROE)
+7. Operating Cash Flow (Cash Flow)
+
+
+
+
+
+
+
